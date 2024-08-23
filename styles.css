@@ -1,0 +1,138 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header-logo {
+    background-color: #c51717d0;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.titulo-principal {
+    text-align: center;
+    width: 95%;
+    color: #BC3756;
+  }
+
+  .subtitulo {
+    text-align: center;
+    width: 95%;
+    font-size: 20px;
+}
+
+.titulo-menu {
+    text-align: center;
+    width: 95%;
+  }
+
+.menu-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-item {
+    font-weight: bold;
+    width: 100%;
+    height: 10%;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    font-weight: bold;
+    width: 200px;
+    padding-right: 20px;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 25%;
+    justify-content: center;
+}
+
+.menu-list li {
+    display: flex;
+}
+
+.menu-price {
+    font-weight: normal;
+    color: #585858;
+    width: 25%;
+}
+
+#pedido-btn {
+    background-color: #4bff63;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+#pedido-btn:hover {
+    background-color: #9ff7ab;
+    margin: 0 auto;
+    display: block;
+}
+
+#pedido, #contato {
+    text-align: center;
+}
+
+#contato-header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.menu-prato {
+    width: 50%;
+    font-weight: bold;
+}
+
+.menu-prato img {
+    width: 50%;
+    height: 50%;
+}
